@@ -1,0 +1,124 @@
+@import url(footer.css);
+body
+{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    background-color: #006A84;
+    padding: 15px;
+    box-shadow: white;
+}
+
+header li
+{
+    display: inline;
+    padding-left: 45px;
+}
+
+header li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+
+}
+
+header li a:hover
+{
+    color:#F7DD32 ;
+      
+}
+
+header ul #Plan a
+{
+    color: #006a84;
+    background-color: #F7DD32;
+    padding: 33px;
+}
+
+h4 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-left: 30.5%;
+    color: #000000;;
+    font-size: 25px;
+}
+
+h4:before,
+h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #006A84;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.leisureimg
+{
+    padding: 20px;
+}
+
+.cultureimg
+{
+    padding: 20px;
+}
+
+.musicimg
+{
+    padding: 20px;
+}
+
+
+.Ltxt
+{
+    margin-right: 800px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.Ctxt
+{
+    margin-top: -53px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.Mtxt
+{
+    margin-left: 800px;
+    margin-top: -55px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.sen1
+{
+    margin-right: 800px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sen2
+{
+   margin-top: -53px; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.sen3
+{
+  margin-left: 800px;
+  margin-top: -55px;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+

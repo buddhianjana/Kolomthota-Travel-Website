@@ -1,0 +1,112 @@
+@import url(footer.css);
+body
+{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    background-color: #006A84;
+    padding: 15px;
+    box-shadow: white;
+}
+
+header li
+{
+    display: inline;
+    padding-left: 45px;
+}
+
+header li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+
+}
+
+header li a:hover
+{
+    color:#F7DD32 ;
+      
+}
+
+header ul #Plan a
+{
+    color: #006a84;
+    background-color: #F7DD32;
+    padding: 33px;
+}
+
+h4 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-left: 30.5%;
+    color: #000000;;
+    font-size: 25px;
+}
+
+h4:before,
+h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #006A84;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+
+
+.btn
+{
+    border: 20px;
+    color: #006a84;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #F1EECB;
+    width: 500px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+.btn:hover
+{
+    color: #006A84;
+    background-color: #F7DD32;
+    cursor: pointer;
+}
+
+.btn2
+{
+    border: 20px;
+    color: #006a84;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #F1EECB;
+    width: 200px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+.btn2:hover
+{
+    color: #006A84;
+    background-color: #F7DD32;
+    cursor: pointer;
+}
+
+
+
